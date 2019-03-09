@@ -1,6 +1,6 @@
 # My Web Components collection
 
-[![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lernajs.io/)
+[![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lernajs.io/) [![npm latest version](https://img.shields.io/npm/v/@my-org/my-component-collection.svg)](https://www.npmjs.com/package/@my-org/my-component)
 
 A collection of Web Components, to (… compose insightful web apps).
 

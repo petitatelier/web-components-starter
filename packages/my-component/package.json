@@ -5,15 +5,15 @@
   "author": "",
   "license": "BSD-3-Clause",
   "main": "my-component.js",
+  "module": "my-component.js",
   "scripts": {},
   "dependencies": {
-    "lit-element": "^2.0.1",
-    "lit-html": "^1.0.0"
+    "lit-element": "^2.0.1"
   },
   "keywords": [],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/olange/three-web-components.git"
+    "url": "git+https://github.com/my-org/my-collection-of-web-components.git"
   },
   "publishConfig": {
     "access": "public"
