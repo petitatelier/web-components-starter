@@ -34,7 +34,8 @@ Clone this repository and bootstrap the project as mentioned above.
 
 * Uses [Lerna](https://lernajs.io) to manage the multiple packages;
 * [Lit-Element](https://lit-element.polymer-project.org) as the base class to create your Web Components;
-* and [Polyserve](https://github.com/Polymer/tools/tree/master/packages/polyserve) as the local development HTTP server.
+* [Polyserve](https://github.com/Polymer/tools/tree/master/packages/polyserve) as the local development HTTP server;
+* and [Rollup.js](https://rollupjs.org/guide/en) to produce ESM/CJS builds of the packages.
 
 ### Design notes
 

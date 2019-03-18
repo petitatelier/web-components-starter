@@ -4,13 +4,23 @@
   "description": "",
   "author": "",
   "license": "BSD-3-Clause",
-  "main": "my-component.js",
-  "module": "my-component.js",
-  "scripts": {},
+  "main": "dist/my-component.js",
+  "module": "dist/my-component.es.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "npm run clean && rollup -c",
+    "clean": "rm -rf dist/"
+  },
   "dependencies": {
     "lit-element": "^2.0.1"
   },
-  "keywords": [],
+  "devDependencies": {
+    "rollup": "^1.6.0"
+  },
+  "keywords": [
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/my-org/my-collection-of-web-components.git"
