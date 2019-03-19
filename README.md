@@ -2,11 +2,11 @@
 
 [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lernajs.io/) [![npm latest version](https://img.shields.io/npm/v/@my-org/my-component-collection.svg)](https://www.npmjs.com/package/@my-org/my-component)
 
-A collection of Web Components, to (… compose insightful web apps).
+A collection of Web Components, to (compose an awesome web app).
 
 ## Status
 
-Work-in-progress.
+(Enter the development status here.)
 
 ## Setup
 
@@ -17,6 +17,16 @@ Work-in-progress.
 Start the local HTTP dev server and visit http://localhost:8081/demos/:
 
     $ npm run dev
+
+## Publish
+
+Rebuild the package distributions:
+
+    $ npm run build
+
+Publish the built packages to NPM:
+
+    $ npm run publish
 
 ---
 
