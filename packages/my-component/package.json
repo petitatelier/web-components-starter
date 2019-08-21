@@ -14,7 +14,7 @@
     "clean": "rm -rf dist/"
   },
   "dependencies": {
-    "lit-element": "^2.0.1"
+    "lit-element": "^2.2.1"
   },
   "devDependencies": {
     "rollup": "^1.6.0"
